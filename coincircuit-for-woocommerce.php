@@ -3,7 +3,7 @@
  * Plugin Name: CoinCircuit for WooCommerce
  * Plugin URI:  https://coincircuit.io
  * Description: Accept cryptocurrency payments via CoinCircuit in your WooCommerce store.
- * Version:     1.2.0
+ * Version:     1.2.1
  * Author:      CoinCircuit
  * Author URI:  https://coincircuit.io
  * Text Domain: coincircuit
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'COINCIRCUIT_VERSION', '1.2.0' );
+define( 'COINCIRCUIT_VERSION', '1.2.1' );
 define( 'COINCIRCUIT_PLUGIN_FILE', __FILE__ );
 define( 'COINCIRCUIT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 

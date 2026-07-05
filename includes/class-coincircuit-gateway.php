@@ -239,8 +239,8 @@ class CoinCircuit_Gateway extends WC_Payment_Gateway {
 		);
 
 		$payload = [
-			'title'       => sprintf( __( 'Order #%s', 'coincircuit' ), $order->get_order_number() ),
-			'description' => sprintf( __( 'Payment for WooCommerce order #%s', 'coincircuit' ), $order->get_order_number() ),
+			'title'       => get_bloginfo( 'name' ),
+			'description' => sprintf( __( 'Payment for order #%s', 'coincircuit' ), $order->get_order_number() ),
 			'amount'      => $amount,
 			'currency'    => get_woocommerce_currency(),
 			'customer'    => $customer,
